@@ -1,0 +1,255 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-image: url(./images/desktop/image-header.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+header nav {
+    padding: 40px 35px;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-between
+}
+
+header nav ul .pages {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 180px;
+}
+
+header nav ul .pages li {
+    margin: 0 20px;
+}
+
+header nav ul .pages li:last-child {
+    background-color: white;
+    padding: 20px 30px;
+    border-radius: 30px;
+}
+
+header nav ul .pages li a {
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    font-size: 20px;
+}
+
+header nav ul .pages li:last-child a {
+    color: rgb(21, 21, 68);
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.title {
+    margin-top: 120px;
+    text-align: center;
+    font-size: 60px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.arrow-down {
+    display: block;
+    margin: 80px auto;
+    height: 180px;
+}
+
+.transform-brand {
+    display: flex;
+    position: relative;
+}
+
+.brands {
+    display: inline-block;
+    width: 50%;
+    margin: 0;
+}
+
+.brand-info {
+    padding: 250px 200px 0 200px;
+}
+
+.brand-info.second {
+    padding-left: 200px;
+}
+
+.brand-title {
+    font-size: 50px;
+    color: rgb(21, 21, 68);
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    margin-bottom: 40px;
+    width: 400px;
+}
+
+.brand-para {
+    color: rgb(133, 132, 138);
+    font-family: sans-serif;
+    font-weight: bold;
+    line-height: 30px;
+    margin-bottom: 40px;
+    font-size: 20px;
+}
+
+.brand-span {
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(11, 11, 49);
+    text-decoration: underline yellow;
+    text-transform: uppercase;
+}
+
+.brand-span.second {
+    text-decoration: underline rgb(235, 114, 134);
+}
+
+.text-over-img {
+    position: absolute;
+    top: 70%;
+    width: 400px;
+    text-align: center;
+    left: 15%;
+}
+
+.text-over-img-second {
+    position: absolute;
+    top: 70%;
+    width: 400px;
+    text-align: center;
+    left: 65%;
+}
+
+.text-over-img-title {
+    font-size: 30px;
+    margin-bottom: 40px;
+    letter-spacing: 1px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #00000090;
+    font-weight: bold;
+}
+
+.text-over-img-para {
+    font-size: 18px;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: #00000090;
+}
+
+.testimonials {
+    height: 100vh;
+    padding: 0 70px;
+    overflow: hidden;
+}
+
+.testimonials .test-title {
+    color: grey;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    margin-bottom: 150px;
+    text-align: center;
+    font-size: 25px;
+    padding-top: 200px;
+}
+
+.testimonials .testimonials-row {
+    width: 33%;
+    text-align: center;
+    display: inline-block;
+}
+
+.testimonials .testimonials-row img {
+    width: 90px;
+    border-radius: 50%;
+    margin-bottom: 50px;
+}
+
+.testimonials .testimonials-row .test-para {
+    font-size: 25px;
+    font-family: sans-serif;
+    color: rgb(128, 128, 145);
+    margin-bottom: 50px;
+    font-weight: bold;
+}
+
+.testimonials .testimonials-row .test-name {
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.testimonials .testimonials-row .test-position {
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: rgb(151, 158, 177);
+}
+
+footer {
+    height: 100vh;
+}
+
+footer .img-row {
+    display: flex;
+    height: 60%;
+}
+
+footer .img-row img {
+    width: 25%;
+}
+
+footer .footer-block {
+    height: 40%;
+    background-color: rgb(149, 223, 219);
+    padding: 0 400px;
+    overflow: none;
+}
+
+footer .footer-block h2 {
+    text-align: center;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(48, 114, 110);
+    padding: 65px;
+
+}
+
+footer .footer-block a {
+    margin: 0 50px;
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(82, 155, 150);
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+footer .footer-block .btns,
+.icons {
+    padding: 0 auto;
+    text-align: center;
+}
+
+footer .footer-block .icons {
+    margin-top: 100px;
+}
+
+footer .footer-block .icons img {
+    margin: 10px 20px;
+}
